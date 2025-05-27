@@ -1,1 +1,6 @@
 Fluct*
+classes.py
+/core
+.env
+#/bot
+cli/findHeatCopy.py

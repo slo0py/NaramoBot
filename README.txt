@@ -9,11 +9,11 @@ showGraph.py - Graphs the data from trainingdata.csv on a scatter plot. Draws a 
 
 InputVals.py - CLI tool to input new training data. 
 
-*not strictly necessary programs*
+*not strictly necessary programs.*
 
 validate.py - CLI tool that checks the CSV file for errors. 
 
-appendCSV.py - CLI tool that appends another CSV file with a comma delimiter to the end of trainingdata.csv. Takes in one argument, which is the name of the source CSV file.
+appendCSV.py - CLI tool that appends another CSV file with a comma delimiter to the end of trainingdata.csv. Takes in one argument, which is the name of the source CSV file. Skips duplicate data.
 
 
 
@@ -71,4 +71,4 @@ Note: If your computer says "pip is not installed", close and reopen command pro
 Although this was designed and built by me, ChatGPT was utilized on select occasions during this project.
 1) I initially used the CSV module for this project, until I learned about Pandas. ChatGPT was used to convert my existing code to work with Pandas.
 2) Additionally, I hate working with Pandas. I asked it many questions regarding syntax for the project as a whole, as well as debugging for the graphical script, showGraph.py.
-3) validate.py is a small script that makes sure there are no errors in the CSV file. It is not a core part of this project, and out of convenience, I had ChatGPT create it for me.
+3) validate.py and appendCSV.py are some small scripts that validate and merge CSV files. They are not a core part of this project, and out of convenience, I had ChatGPT create them for me.

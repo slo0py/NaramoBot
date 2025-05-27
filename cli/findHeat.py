@@ -22,11 +22,6 @@ x = df['Heat']
 y = df['Excess']
 slope, intercept = np.polyfit(x, y, 1)
 
-# Heat MOE calculation
-x_heat = df['Heat'].values
-y_excess = df['Excess'].values
-a, b = np.polyfit(x_heat, y_excess, 1)
-
 # Take user input
 try:
     target_excess = float(input("Enter desired Excess value: "))
@@ -35,11 +30,8 @@ except ValueError:
     exit()
 
 # Estimate the corresponding Heat
-
 estimated_heat = (target_excess - intercept) / slope
-rounded_heat = math.ceil(estimated_heat)
 target_excess = math.ceil(target_excess)
-delta_excess = 1000 # rough assumed excess fluctuations. update later
+#excess_variation = 1000 # rough assumed excess fluctuations. update later
 
-delta_heat = delta_excess / abs(a)
-print(f"Estimated Heat for Excess {target_excess} is approximately {rounded_heat} K. (±{math.ceil(delta_heat)}K)")
+print(f"Estimated Heat for Excess {target_excess} MW is approximately {math.ceil(estimated_heat)} K.")
