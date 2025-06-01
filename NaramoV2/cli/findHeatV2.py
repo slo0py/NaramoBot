@@ -9,7 +9,7 @@ the relationships between temperature-pressure and pressure-excess.
 The script works with excess power (total generation - 25000 facility power requirement).
 
 Usage:
-    python reactor_calculator.py [target_excess_power]
+    python findHeatV2.py [target_excess_power]
     
 If no target is provided, the script will prompt for input.
 """
