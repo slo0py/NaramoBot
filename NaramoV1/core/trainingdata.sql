@@ -1,0 +1,41 @@
+CREATE TABLE mytable (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Heat INTEGER NOT NULL,
+    Excess INTEGER NOT NULL
+);
+INSERT INTO mytable(Heat,Excess) VALUES (2000,15500);
+INSERT INTO mytable(Heat,Excess) VALUES (2109,16100);
+INSERT INTO mytable(Heat,Excess) VALUES (2075,17000);
+INSERT INTO mytable(Heat,Excess) VALUES (2150,18000);
+INSERT INTO mytable(Heat,Excess) VALUES (2220,19000);
+INSERT INTO mytable(Heat,Excess) VALUES (2220,20000);
+INSERT INTO mytable(Heat,Excess) VALUES (2221,20165);
+INSERT INTO mytable(Heat,Excess) VALUES (2250,21000);
+INSERT INTO mytable(Heat,Excess) VALUES (2304,20750);
+INSERT INTO mytable(Heat,Excess) VALUES (2300,21800);
+INSERT INTO mytable(Heat,Excess) VALUES (2350,22200);
+INSERT INTO mytable(Heat,Excess) VALUES (2179,18000);
+INSERT INTO mytable(Heat,Excess) VALUES (2311,21000);
+INSERT INTO mytable(Heat,Excess) VALUES (2300,20200);
+INSERT INTO mytable(Heat,Excess) VALUES (2250,19604);
+INSERT INTO mytable(Heat,Excess) VALUES (2108,16438);
+INSERT INTO mytable(Heat,Excess) VALUES (2000,14492);
+INSERT INTO mytable(Heat,Excess) VALUES (2000,14162);
+INSERT INTO mytable(Heat,Excess) VALUES (2301,19151);
+INSERT INTO mytable(Heat,Excess) VALUES (1500,4307);
+INSERT INTO mytable(Heat,Excess) VALUES (1551,5370);
+INSERT INTO mytable(Heat,Excess) VALUES (1599,6314);
+INSERT INTO mytable(Heat,Excess) VALUES (1650,7216);
+INSERT INTO mytable(Heat,Excess) VALUES (1701,8577);
+INSERT INTO mytable(Heat,Excess) VALUES (1750,9596);
+INSERT INTO mytable(Heat,Excess) VALUES (1801,10575);
+INSERT INTO mytable(Heat,Excess) VALUES (1851,11429);
+INSERT INTO mytable(Heat,Excess) VALUES (1900,12721);
+INSERT INTO mytable(Heat,Excess) VALUES (1950,13533);
+INSERT INTO mytable(Heat,Excess) VALUES (2253,19591);
+INSERT INTO mytable(Heat,Excess) VALUES (2350,21805);
+INSERT INTO mytable(Heat,Excess) VALUES (2401,22691);
+INSERT INTO mytable(Heat,Excess) VALUES (2450,23627);
+INSERT INTO mytable(Heat,Excess) VALUES (2500,24541);
+INSERT INTO mytable(Heat,Excess) VALUES (2556,25421);
+INSERT INTO mytable(Heat,Excess) VALUES (2601,26349);

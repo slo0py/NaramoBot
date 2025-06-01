@@ -1,6 +1,14 @@
 Fluct*
-classes.py
+#classes.py
 /core
 .env
-#/bot
-cli/findHeatCopy.py
+/NaramoV1/bot
+/NaramoV1/cli/findHeatCopy.py
+/NaramoV2/bot
+template*
+/readmeblegh
+/NaramoV1/core/parse_csv.py
+/NaramoV1/core/test.py
+/NaramoV1/core/inputVals.py
+/NaramoV1/core/findHeat.py
+/NaramoV1/core/trainingdata.csv
