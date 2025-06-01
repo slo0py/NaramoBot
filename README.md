@@ -20,9 +20,14 @@ These commands should ensure you have everything you need to run the program.
 
 Note: If your computer says `pip is not installed`, close and reopen command prompt, then run it again.
 
+4. Download the latest version of the CLI scripts from the repo, then run them in your terminal using `python <script_name>`. (Or to make it simpler, just double click `menu.py).
+
 ## File Descriptions
 
 ### V1:
+> **_NOTE:_**  *None of the Naramo/V1 scripts will be accurate to the latest game version due to their functionality being broken by the latest update. See [the latest version.](https://github.com/slo0py/NaramoBot/?tab=readme-ov-file#v2)* 
+
+<br/>
 
 `/NaramoV1/cli/`
 

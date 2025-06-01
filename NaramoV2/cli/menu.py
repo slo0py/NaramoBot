@@ -15,6 +15,7 @@ while ans:
     """)
     ans=input("What would you like to do? ") 
     if ans=="1": 
+        print ("Note: may show broken characters. Running the script directly is the recommended option.\n")
         exec(open("findHeatV2.py").read()) 
 
     elif ans=="2":
