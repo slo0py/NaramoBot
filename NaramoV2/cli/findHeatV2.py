@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Nuclear Reactor Temperature Calculator
 
@@ -56,11 +56,6 @@ class ReactorCalculator:
         # Pressure vs Excess Power relationship
         self.pressure_excess_slope, self.pressure_excess_intercept, self.pressure_excess_r, _, _ = \
             stats.linregress(self.pressure, self.excess_power)
-        
-        print(f"Model Statistics:")
-        print(f"Temperature → Pressure: R² = {self.temp_pressure_r**2:.4f}")
-        print(f"Pressure → Excess Power: R² = {self.pressure_excess_r**2:.4f}")
-        print()
     
     def excess_to_pressure(self, target_excess):
         """Convert target excess power to required pressure"""

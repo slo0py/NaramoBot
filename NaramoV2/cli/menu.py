@@ -8,7 +8,7 @@ ans=True
 while ans: 
     print ("""
     1. Calculate Heat from Excess 
-    2. Show Pressure-Heat graph (not implemented yet)
+    2. Show Heat | Power | Excess table
     3. Show Pressure-Excess graph (not implemented yet)
     4. Import values from CSV (depricated from V1 version)
     5. Exit/Quit
@@ -19,7 +19,8 @@ while ans:
         exec(open("findHeatV2.py").read()) 
 
     elif ans=="2":
-        print("Not functional")
+        print ("Note: may show broken characters. Running the script directly is the recommended option.\n")
+        exec(open("power_table.py").read())
 
     elif ans=="3":
         print("Not functional")
