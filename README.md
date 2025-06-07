@@ -2,6 +2,7 @@
 ## Description
 **NaramoBot** is a lightweight educational tool made in Python created for use in the Roblox Reactor Simulator [Naramo Nuclear Plant](https://www.roblox.com/games/98626216952426/UPDATE-Naramo-Nuclear-Plant). <br/>
 While a Discord Bot integration and/or website is planned, it runs primarily through a shell or command line interface.
+The current main functionality is a utility that can help inexperienced operators complete Power Orders by calculating the Heat Level that correlates to the Excess generation required to satisfy it. 
 
 ## Setup
 *This assumes you are on Windows, although setup for Linux/MacOS should follow a similar premise.*
